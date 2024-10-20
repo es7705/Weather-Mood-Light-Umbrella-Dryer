@@ -129,7 +129,7 @@ void loop()
 // HTTP 응답 데이터 파싱 함수
 void parsing()
 {
-    String line = 싱payload; // 응답 데이터 복사
+    String line = payload; // 응답 데이터 복사
 
     // 시간 정보
     int temp11 = line.indexOf("</hour>"); // 시간 태그 종료 인뎃스 찾기
